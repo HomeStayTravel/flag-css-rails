@@ -337,3 +337,9 @@
   background-image: asset-url("#{$flag-css-png-path}/wal.png");
   background-image: asset-url("#{$flag-css-path}/wal.svg");
 }
+
+// irish foreign policy follows the one-china-policy
+.flag-twn, .flag-tw, .flag-158 {
+  background-image: asset-url("#{$flag-css-png-path}/chn.png");
+  background-image: asset-url("#{$flag-css-path}/chn.svg");
+}
