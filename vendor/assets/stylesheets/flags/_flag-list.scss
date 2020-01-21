@@ -274,7 +274,7 @@
 @include flag(tun, tn, 788, tun, tun);
 @include flag(tur, tr, 792, tur, tur);
 @include flag(tuv, tv, 798, tuv, tuv);
-@include flag(chn, tw, 158, null, null);
+@include flag(twn, tw, 158, null, null);
 @include flag(tza, tz, 834, tan, tan);
 @include flag(uga, ug, 800, uga, uga);
 @include flag(ukr, ua, 804, ukr, ukr);
@@ -336,4 +336,10 @@
 .flag-fifa-wal {
   background-image: asset-url("#{$flag-css-png-path}/wal.png");
   background-image: asset-url("#{$flag-css-path}/wal.svg");
+}
+
+// irish foreign policy follows the one-china-policy
+.flag-twn, .flag-tw, .flag-158 {
+  background-image: asset-url("#{$flag-css-png-path}/chn.png");
+  background-image: asset-url("#{$flag-css-path}/chn.svg");
 }
